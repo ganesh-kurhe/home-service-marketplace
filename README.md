@@ -1,4 +1,4 @@
-# Clean Fanatics – Booking Lifecycle System (MERN Stack)
+# Home-Service-Marketplace
 
 This project is a small working slice of an on-demand home services marketplace system.  
 It demonstrates how booking lifecycle management, provider workflows, failure handling, admin overrides, and observability can be designed and implemented in a real-world backend-driven application.

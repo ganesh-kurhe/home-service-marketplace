@@ -114,20 +114,41 @@ These choices were made to meet the time constraint while focusing on correctnes
 
 ---
 
-## ▶️ How to Run the Project
+## ⚙️ Installation (Local Development)
 
-### Prerequisites
+Follow these steps to set up the project locally:
 
-- Node.js (v18+ recommended)
-- MongoDB (local or Atlas)
-- Git
+1. **Clone the repository** 
+   ```bash
+    git clone https://github.com/your-username/course-subscription-mern.git](https://github.com/ganesh-kurhe/home-service-marketplace.git
 
----
+2. **Backend Setup**
+   ```bash
+   cd backend
+   npm install
 
-## 🔧 Backend Setup
+3. **Set up environment variables**
+   Create a .env file in the root directory and add the following:
+   ```bash
+   PORT=5000
+   MONGO_URI=your_mongodb_atlas_connection_string
+   
 
-```bash
-cd clean-fanatics-backend
-npm install
+4. **Start the backend server:**
+   ```bash
+   npx nodemon src/server.js
 
+5. **Frontend Setup**
+   ```bash
+   cd ../frontend
+   npm install
+
+6. **Update API base URL:**
+   ```bash
+   "baseURL: "http://localhost:5000/api"
+
+
+7. **Start frontend:**
+   ```bash
+   npm run dev
 
